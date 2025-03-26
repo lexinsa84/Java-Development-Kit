@@ -1,12 +1,12 @@
 package chat;
 
-import javax.swing.*;
+import chat.client.ClientWindow;
+import chat.server.repository.ServerWindow;
 
 public class Main {
-
     public static void main(String[] args) {
-        ServerWindow server =new ServerWindow();
-        new ClientWindow(server);
+        ServerWindow serverWindow = new ServerWindow();
+        new ClientWindow(serverWindow.getServerController());
     }
 }
 
