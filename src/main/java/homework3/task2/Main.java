@@ -11,8 +11,8 @@ public class Main {
         String[] str3 = {"a", "b", "d"};
 
         System.out.println(CompArr.compareArrays(arr1, arr2));
-        System.out.println(CompArr.compareArrays(arr1, arr3));
+        System.out.println(CompArr.compareArrays(arr1, str3));
         System.out.println(CompArr.compareArrays(str1, str2));
-        System.out.println(CompArr.compareArrays(str1, str3));
+        System.out.println(CompArr.compareArrays(str1, arr3));
     }
 }

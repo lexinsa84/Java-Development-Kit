@@ -7,7 +7,7 @@ public class CompArr {
         }
 
         for (int i = 0; i < array1.length; i++) {
-            if (!array1[i].equals(array2[i])) {
+            if (!array1[i].getClass().equals(array2[i].getClass())) {
                 return false;
             }
         }
